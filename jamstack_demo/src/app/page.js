@@ -16,8 +16,8 @@ export default function Home() {
 
   return (
     <div style={{ fontFamily: "sans-serif", padding: "20px" }}>
-      <h1>JAMstack + Serverless API Demo2</h1>
-      <p>정적 빌드 페이지입니다...</p>
+      <h1>JAMstack  Demo</h1>
+      <p>JAMStack Demo 페이지입니다...</p>
       <button onClick={fetchRandomNumber}>
         {loading ? "로딩 중..." : "랜덤 숫자 가져오기"}
       </button>
